@@ -17,9 +17,7 @@
   a {
     text-decoration: none; /* Remove a linha embaixo do link */
 }
-
-  
-
+ 
 section {
     background-image: url(/imagens/Apresentação1.png);
     height: 100vh;
@@ -202,7 +200,8 @@ section {
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Previne a rolagem enquanto a tela de carregamento está ativa */
+    overflow-x: hidden; /* Esconde rolagem horizontal */
+    overflow-y: auto;  /* Permite rolagem vertical */
   }
   
   .overlay {
@@ -262,6 +261,9 @@ footer a {
     color: #3c97bf;
     text-decoration: none;
 }
+
+
+
 
 
   

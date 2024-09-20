@@ -1,3 +1,57 @@
+.swiper-slide{
+    max-width: 25%;
+}
+
+.card{
+    max-width: 95%;
+}
+
+/* .card:hover {
+    transform: scale(1.02);
+} */
+@media screen and (max-width: 1020px){
+    .swiper-slide{
+        max-width: 65%;
+    }
+}
+
+
+/* Teste */
+.text {
+    text-align: center; /* Centraliza o texto */
+    animation: fadeIn 1s; /* Animação de entrada */
+}
+
+.arrow-icon {
+    margin-left: 8px; /* Espaço entre o texto e o ícone */
+    font-size: 1.2em; /* Tamanho do ícone */
+    animation: bounce 1s infinite; /* Animação de "pular" */
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateX(0); /* Posição original */
+    }
+    40% {
+        transform: translateX(-10px); /* Sobe um pouco */
+    }
+    60% {
+        transform: translateX(-2.5px); /* Sobe um pouco menos */
+    }
+}
+
+
+  
   /* Estilizando a barra de rolagem */
   ::-webkit-scrollbar {
     width: 12px; /* largura da barra de rolagem */
