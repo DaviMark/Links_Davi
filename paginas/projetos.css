@@ -11,7 +11,7 @@
 } */
 @media screen and (max-width: 1020px){
     .swiper-slide{
-        max-width: 65%;
+        max-width: 80%;
     }
 }
 
@@ -77,7 +77,7 @@
 }
 
   .titulo,.text {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 .text h5{
@@ -85,7 +85,7 @@
 }
 
 .cards{
-    font-family: sans-serif;
+    font-family: 'Merriweather', sans-serif;
     word-spacing: -0.15em; /* Ajusta o espaçamento entre as palavras */
     text-align: justify;
 }
@@ -216,7 +216,14 @@ footer a {
     }
 
     .text p{
-        word-spacing: -0.25em; /* Ajusta o espaçamento entre as palavras */
+        word-spacing: -0.2em; /* Ajusta o espaçamento entre as palavras */
+        font-size: 15px;
+        font-family: 'Merriweather', sans-serif;
+        margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
     }
 
     .text h5{
